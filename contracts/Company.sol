@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 //pragma solidity >=0.4.6 <0.9.0;
-pragma solidity ^0.4.6;
+pragma solidity ^0.5.16;
 
 contract Company {
   struct Farm {

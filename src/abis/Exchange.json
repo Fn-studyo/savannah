@@ -1,0 +1,223 @@
+{
+  "contractName": "Exchange",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/HP/OneDrive/Documents/work/savannah/contracts/Exchange.sol\":\"Exchange\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/HP/OneDrive/Documents/work/savannah/contracts/Exchange.sol\":{\"keccak256\":\"0xa8780e61326718839deb499271052e0eaeb7ed711daacc0798478b39cdc4c60a\",\"urls\":[\"bzz-raw://53d1ebeee5453d695b7fb6563942e68a638df8c6a42676c27de0009429c6e73d\",\"dweb:/ipfs/QmXwYiSPQBv8ncFwDxHykJ6RHUXRxctpRwUB67kaLUh6Gk\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582015787034608444717f6f530dad557bb486ec4a57f056d1bfb4d5fa8ebf6f180164736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582015787034608444717f6f530dad557bb486ec4a57f056d1bfb4d5fa8ebf6f180164736f6c63430005100032",
+  "sourceMap": "66:50:2:-;;;88:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;88:26:2;66:50;;;;;;",
+  "deployedSourceMap": "66:50:2:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Exchange {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:/Users/HP/OneDrive/Documents/work/savannah/contracts/Exchange.sol",
+  "ast": {
+    "absolutePath": "/C/Users/HP/OneDrive/Documents/work/savannah/contracts/Exchange.sol",
+    "exportedSymbols": {
+      "Exchange": [
+        159
+      ]
+    },
+    "id": 160,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 154,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 159,
+        "linearizedBaseContracts": [
+          159
+        ],
+        "name": "Exchange",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 157,
+              "nodeType": "Block",
+              "src": "109:5:2",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 158,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 155,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "99:2:2"
+            },
+            "returnParameters": {
+              "id": 156,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "109:0:2"
+            },
+            "scope": 159,
+            "src": "88:26:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 160,
+        "src": "66:50:2"
+      }
+    ],
+    "src": "32:85:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/C/Users/HP/OneDrive/Documents/work/savannah/contracts/Exchange.sol",
+      "exportedSymbols": {
+        "Exchange": [
+          159
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 154,
+        "name": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            159
+          ],
+          "name": "Exchange",
+          "scope": 160
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 159,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 155,
+                "name": "ParameterList",
+                "src": "99:2:2"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 156,
+                "name": "ParameterList",
+                "src": "109:0:2"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 157,
+                "name": "Block",
+                "src": "109:5:2"
+              }
+            ],
+            "id": 158,
+            "name": "FunctionDefinition",
+            "src": "88:26:2"
+          }
+        ],
+        "id": 159,
+        "name": "ContractDefinition",
+        "src": "66:50:2"
+      }
+    ],
+    "id": 160,
+    "name": "SourceUnit",
+    "src": "32:85:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xA9485feFD7374f4de71771C42a4513EA5336B178",
+      "transactionHash": "0x8daf24867a2fd4ee2ef372a552e6165b6fd94c7b1dd34e4f977fcf4ea2286a86"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-08-09T17:13:52.493Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
