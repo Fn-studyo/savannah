@@ -10,6 +10,10 @@ contract Company {
     string location;
     uint256 percentage;
   }
+
+  mapping (address => Farm) public farms;
+  address[] private farmIndex;
+  
   constructor() public {
   }
 }
