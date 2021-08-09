@@ -1,7 +1,5 @@
 // SPDX-License-Identifier: MIT
-//pragma solidity >=0.4.6 <0.9.0;
 pragma solidity ^0.5.16;
-
 contract Company {
   struct Farm {
     uint index;
@@ -36,10 +34,20 @@ contract Company {
     farms[farmAddress].price = price;
     farms[farmAddress].location = location;
     farms[farmAddress].percentage = percentage;
-    farms[farmAddress].index = farmIndex.push(farmAddress) - 1;
+    farms[farmAddress].index = farmIndex.push(farmAddress) - 1; 
     total++;
     //emit event
     emit CreateFarm(farmAddress, farms[farmAddress].index, name, size, price, location, percentage);
     return true;
   }
+
+  function getFarm(address farmAddress) public view returns (string memory name , uint percentage , uint size, string memory location, uint256 price){
+    return(
+      farms[farmAddress].name, 
+      farms[farmAddress].percentage, 
+      farms[farmAddress].size,
+      farms[farmAddress].location,
+      farms[farmAddress].price
+    );
+   }
 }
